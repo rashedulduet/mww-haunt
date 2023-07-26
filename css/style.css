@@ -204,6 +204,7 @@ body {
     color: rgb(235, 229, 229);
   }
   #introduction .main_div02 .text_div .sub_div p{
+    margin-top:100px;
     font-size: 12px;
     font-weight: 600;
     color: black;
@@ -227,6 +228,7 @@ body {
     padding-bottom: 18px;
     background-color: transparent;
     margin: 0 10px;
+    margin-top: 50px;
     transition: all linear 0.3s;
 }
 
@@ -236,4 +238,26 @@ body {
     border: #fec600;
 
 }
+#introduction .sub_div{
+    position: relative;
+}
+#introduction .sub_div h2{
+       font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        color: rgb(243, 248, 246);
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        opacity: 0;
+        transition: all linear .6s;
+}
+#introduction .sub_div.slick-slide.slick-current.slick-active h2{
+    position: absolute;
+        top: 0px;
+        left: 0px;
+        color: red;
+        opacity: 1;
+}
+
 /* Introduction part end */
